@@ -1,0 +1,53 @@
+/* type selectors */
+article, aside, figure, figcaption, footer, header, nav, section {
+    display: block;
+}
+
+body {
+	font-family: Papyrus, fantasy;
+    max-width: 800px;
+}
+
+article p {
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+aside {
+	margin: 50px 20px 10px 0;
+	width: 225px;
+	float: right;
+    padding: 10px;
+    border: 2px solid #000000;
+}
+
+aside img {
+    margin: auto;
+}
+
+section{
+	padding: 15px 25px;
+}
+article {
+	padding: 0 10px 10px;
+}
+
+.menu-item {
+    font-size: 120%;
+	cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.hide {
+	display: none;
+}
+
+
+ul {
+	padding-left: 45px;
+}
+li {
+	padding-bottom: .25em;
+}
