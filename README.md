@@ -2,7 +2,7 @@
 Completing this assignment depends on knowing:
 
 - Basic JavaScript: variables, functions, conditionals
-- jQuery: DOM traversal, adding/removing items from the DOM, setting/getting attributes, & iteration
+- JavaScript DOM methods for locating, adding and removing elements
 
 ### Requirements
 Behavior:
@@ -15,13 +15,13 @@ Behavior:
   - add a new item to the list
   - then hide the form
   - show the New Item button
-- The list should be saved to the browser storage so that when you bring up the page it remembers what it looked like when you last closed it (in this browser).
 
-JavaScript code:
 
-- Use the module pattern to keep things out of global scope
+## Write good JavaScript code!
+
 - Use functions to break down the functionality into small tasks
 - Practice good coding standards with clear variable and function names, use $ for variables that will hold jQuery objects, use ES6 `let` and `const` instead of `var`
+- Make sure your variables are well named.  Avoid abbreviations and use camelCase to make multi-word names readable.
 
 ## Final Testing
 When you are done, push your files to GitHub, then make sure that your page displays and runs correctly on the GitHub website.  

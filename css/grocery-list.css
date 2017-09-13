@@ -1,0 +1,131 @@
+/* http://paletton.com/#uid=31I0x0kdAJr3UYz8PSfhVztlQsU */
+
+body {
+  background-color: #444;
+  color: rgba(0, 0, 0, .3);
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+#list {
+  background-color: #FFF893;
+  color: rgba(0, 0, 0, .6);
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto 20px auto;
+  padding: 20px 0 80px 0;
+}
+
+h1 {
+  color: #4543A1;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .9);
+  font-family: "Permanent Marker", Futura, "Trebuchet MS", Arial, sans-serif;
+  text-align: center;
+  line-height: 75px;
+  letter-spacing: 0.15em;
+}
+
+h2 {
+  color: #C356A8;
+  font-size: 1.6em;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  margin: 0 .5em 1em 0;
+}
+
+#count {
+  background-color: #EDABDC;
+  box-shadow: 2px 1px 1px rgba(0, 0, 0, .4);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  border-radius: 50%;
+  padding: 2px 8px;
+}
+
+#grocery-list {
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, .7);
+}
+
+ul {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #E6DC49;
+  border-top: 1px solid rgba(0, 0, 0, .2);
+  border-bottom: 1px solid rgba(0, 0, 0, .4);
+  letter-spacing: .05em;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+li span {
+  padding-right: 20px;
+}
+
+li i.glyphicon {
+  display: block;
+  float: right;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+  cursor: pointer;
+}
+
+#btn-new span {
+  padding: 5px 10px;
+}
+
+#btn-new i.glyphicon {
+  display: block;
+  float: left;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+}
+
+form {
+  padding: 0 20px 20px 20px;
+}
+
+input[type='text'] {
+  background-color: #FADCF2;
+  color: #C356A8;
+  font-size: 1.2em;
+  width: 385px;
+  padding: 4px 6px;
+  border: 1px solid #EDABDC;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+input[type='submit'],
+button {
+  margin: 10px;
+  background-color: #EDABDC;
+  color: rgba(0, 0, 0, .7);
+  border-radius: 8px;
+  border: none;
+  padding: 8px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  float: right;
+}
+
+input[type='submit']:hover,
+button:hover {
+  background-color: #C356A8;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: #FFF893;
+  }
+}

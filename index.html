@@ -3,38 +3,50 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Get the Groceries</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grocery List</title>
+  <!-- Font -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Grocery List CSS -->
+  <link rel="stylesheet" href="css/grocery-list.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-  <header>
-    <h1>Get the Groceries</h1>
-  </header>
+  <main id="list">
+    <h1>My Grocery List</h1>
 
-  <main>
-    <div>
-      <h2>Need to buy...</h2>
-      <ul id="grocery-list">
-        <li>Milk</li>
-        <li>Cheese</li>
-        <li>Bread</li>
-        <li>Ice-Cream</li>
-      </ul>
-
-      <div id="btn-add-item">
-        <button href="#">Add Item</button>
-      </div>
-      <form id="fm-add-item">
-        <input type="text" id="item" placeholder="Add description" />
-        <input type="submit" id="add" value="Add" />
-      </form>
+    <div class="text-center text-uppercase">
+      <h2>Items to get:</h2>
+      <span id="count">0</span>
     </div>
+    <ul id="grocery-list"></ul>
+    <button id="btn-new">
+      <span>Add item</span><i class="glyphicon glyphicon-plus"></i>
+    </button>
+    <form id="form-add-item" class="hide">
+      <input type="text" id="input-item" placeholder="Add description" autocomplete="off" />
+      <input type="submit" id="btn-add-item" value="Add" />
+    </form>
   </main>
 
-  <!-- javascript -->
-  <script src="js/script.js"></script>
+  <!-- Grocery List JS which MUST not use jQuery! (at this point) -->
+  <script src="js/grocery-list.js"></script>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
-
 </html>
