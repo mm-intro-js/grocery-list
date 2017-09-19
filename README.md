@@ -20,7 +20,7 @@ Behavior:
 ## Write good JavaScript code!
 
 - Use functions to break down the functionality into small tasks
-- Practice good coding standards with clear variable and function names, use $ for variables that will hold jQuery objects, use ES6 `let` and `const` instead of `var`
+- Practice good coding standards with clear variable and function names, use ES6 `let` and `const` instead of `var`
 - Make sure your variables are well named.  Avoid abbreviations and use camelCase to make multi-word names readable.
 
 ## Final Testing
